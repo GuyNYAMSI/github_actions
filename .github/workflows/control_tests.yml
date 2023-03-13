@@ -20,7 +20,7 @@ jobs:
 
       - name: execution tests
         run: |
-          python3 file_test.py
+          python3 .github/workflows/file_test.py
 
       - name: exécution flake8
         uses: py-actions/flake8@v2
