@@ -20,7 +20,7 @@ jobs:
 
       - name: execution tests
         run: |
-          pytest -vs home/runner/work/github_actions/github_actions/.github/workflows/test_file.py
+          pytest -vs /home/runner/work/github_actions/github_actions/.github/workflows/test_file.py
 
       - name: exécution flake8
         uses: py-actions/flake8@v2
